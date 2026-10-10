@@ -1,9 +1,7 @@
-import time
-
-for i in range(5):
-   
-    time.sleep(1)
-    print("hello ai world")  
+total = 0
+for i in range(1, 11):
+    total += i
+    print(total) 
 
 
 
